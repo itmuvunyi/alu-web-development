@@ -43,3 +43,18 @@ aside {
   overflow-y: auto; /* Allow scrolling if the content is too long */
   background-color: #d0d0d0; /* Slightly darker gray for contrast */
 }
+
+/* Ensure the layout works on smartphones and smaller screens */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column; /* Stack header, main, and footer vertically */
+    }
+
+    main {
+        flex-direction: column; /* Stack article and aside vertically */
+    }
+
+    article, aside {
+        flex: 1 1 100%; /* Make article and aside take full width on small screens */
+    }
+}
