@@ -70,3 +70,50 @@ img {
   height: auto;
   display: block;
 }
+
+/* Quote Section */
+.quote-section {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.quote-container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.quote-container img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.quote-content {
+  flex: 1;
+}
+
+.quote-content blockquote {
+  font-size: 24px;
+  font-style: italic;
+  margin-bottom: 10px;
+  line-height: 1.4;
+  color: #444;
+}
+
+.quote-content .author {
+  font-weight: bold;
+  font-size: 18px;
+  color: #222;
+}
+
+.quote-content .subtext {
+  font-size: 14px;
+  color: #777;
+}
+
